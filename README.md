@@ -9,7 +9,7 @@ in addition the data are present on the local machine even after restart or re c
 
 - mongodb:latest
 
-# Mongodb Container Configuration
+## Mongodb Container Configuration
 
 1. Expose port
 
@@ -19,7 +19,7 @@ in addition the data are present on the local machine even after restart or re c
 
    - Application database: ./docker/mongo/data -> /data/db
 
-# How to use
+## How to use
 
 1. Clone the repository using the command:
 
@@ -46,10 +46,19 @@ $ docker-compose up -d
 $ docker exec -it app-database sh
 ```
 
-## Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/jadilson12/docker-compose-mongo/issues).
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
+
+
+## Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/jadilson12/docker-compose-mongo/issues).
+
+
+## author
+
+Jadilson Guedes <jadilson12@gmail.com>  
+License MIT <https://jadilson12.mit-license.org/>
